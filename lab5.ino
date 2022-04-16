@@ -3,7 +3,7 @@ rgb_lcd lcd;
 
 void printName(){  
   lcd.setCursor(0,0);
-  lcd.print("Shlifer Robert");
+  lcd.print("Robert");
   lcd.setCursor(0,1);
   lcd.print("GrNum ");
 }
