@@ -3,9 +3,9 @@ rgb_lcd lcd;
 
 void printName(){  
   lcd.setCursor(0,0);
-  lcd.print("Robert");
+  lcd.print("Name");
   lcd.setCursor(0,1);
-  lcd.print("GrNum ");
+  lcd.print("Group_Number ");
 }
 
 void setup() {  
